@@ -2,48 +2,80 @@
 
 exports[`Login view 1`] = `
 <DocumentFragment>
-  <section
-    class="css-13p8oyr-Login"
+  <main
+    class="css-1rgkioe-Login"
   >
-    <h1
-      class="css-1ja91ja-Login"
+    <section
+      class="css-1bj75m4-Login"
     >
-      Login to the Application
-    </h1>
-    <div
-      styles="[object Object]"
-    >
-      <form>
-        <label
-          class="css-1raa8wv-Login"
-          for="email"
+      <header
+        class="css-jkgx2s-Login"
+      >
+        <h1
+          class="css-18isbzq-Login"
         >
-          Email
-        </label>
-        <input
-          id="email"
-          name="email"
-          type="email"
-          value="diego@gmail.com"
-        />
-        <label
-          class="css-1raa8wv-Login"
-          for="password"
+          ShiftMe
+        </h1>
+        <h2
+          class="css-5bssr3-Login"
         >
-          Password
-        </label>
-        <input
-          id="password"
-          name="password"
-          type="password"
-          value="123456"
-        />
-        <br />
-        <button>
-          Log In
+          Improve the work schedules of your hotel
+        </h2>
+      </header>
+      <form
+        class="css-jkgx2s-Login"
+      >
+        <fieldset
+          class="css-15ar33u-Login"
+        >
+          <label
+            class="css-kiz367-Label"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="css-2fifcf-Input"
+            id="email"
+            name="email"
+            type="email"
+            value="@gmail.com"
+          />
+        </fieldset>
+        <fieldset
+          class="css-1qpn1se-Login"
+        >
+          <label
+            class="css-kiz367-Label"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="css-2fifcf-Input"
+            id="password"
+            name="password"
+            type="password"
+            value="123456"
+          />
+        </fieldset>
+        <button
+          class="css-ubfyl9-Button"
+        >
+          Sign In
         </button>
       </form>
-    </div>
-  </section>
+    </section>
+    <section
+      class="css-1lhkefz-Login"
+    >
+      <img
+        alt="Woman scheduling in a big calendar"
+        class="css-z9p5nn-Login"
+        role="presentation"
+        src="login-image.png"
+      />
+    </section>
+  </main>
 </DocumentFragment>
 `;

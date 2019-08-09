@@ -10,7 +10,7 @@ import image from "../assets/login-image.png";
 function Login() {
   const user = useUser();
   const userUpdater = useUserUpdater();
-  const [email, setEmail] = React.useState("diego@gmail.com");
+  const [email, setEmail] = React.useState("@gmail.com");
   const [password, setPassword] = React.useState("123456");
   const [error, setError] = React.useState(null);
 
